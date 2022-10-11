@@ -1,0 +1,240 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    padding: 15px;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(58, 58, 58);
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.brand {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5em;
+    padding: 15px;
+    text-transform: capitalize;
+}
+
+.firstname {
+    color: white;
+    font-weight: 700;
+}
+
+.lastname {
+    color: rgb(220, 140, 20);
+    padding-left: 4px;
+    font-weight: 700;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation > li {
+    list-style-type: none;
+}
+
+.navigation > li > a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+
+.navigation > li > a:hover {
+    color: rgb(220, 140, 20);
+    font-size: 22px;
+}
+
+.navigation > li > img {
+    margin-right: 35px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    transition: all .3s ease-in-out;
+}
+
+.navigation > li > img:hover {
+    width: 65px;
+    height: 65px;
+    border-radius: 65px;
+}
+
+.active {
+    background-color: rgb(220, 140, 20);
+    color: white;
+    padding: 15px;
+    transition: all .3s ease;
+    border-radius: 40px;
+}
+
+.active:hover {
+    color: white !important;
+}
+
+h1 {
+    font-family: cursive;
+    margin-left: 40px;
+    padding-top: 5px;
+    font-size: 50px;
+    color: rgb(220, 140, 20);
+    font-weight: 150;
+}
+
+h3 {
+    font-family: cursive;
+    color: rgb(85, 85, 85);
+    margin-left: 50px;
+}
+
+h4 {
+   font-family: cursive;
+   color: rgb(220, 140, 20);
+}
+
+.pengertian {
+    margin-left: 50px;
+    margin-right: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.footer-container {
+    background-color: rgb(58, 58, 58);
+    padding: 4rem 0 4rem 0;
+}
+
+.footer {
+    width: 100%;
+    height: 45vh;
+    background-color: rgb(58, 58, 58);
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.footer-heading {
+    display: flex;
+    flex-direction: column;
+    margin-right: 3rem;
+}
+
+.footer-heading h2 {
+    margin-bottom:  2rem;
+}
+
+.footer-heading a {
+    color: rgb(220, 140, 20);
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+
+.footer-heading a:hover {
+    color: yellow;
+    transition: 0.3s ease-out;
+}
+
+.footer-heading p {
+    color: rgb(220, 140, 20);
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+
+.footer-email-form h2 {
+    margin-bottom: 2rem;
+}
+
+#footer-email {
+    width: 250px;
+    height: 40px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+#footer-name {
+    width: 250px;
+    height: 40px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+#footer-massage {
+    width: 250px;
+    height: 100px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+#footer-email::placeholder {
+    color: rgb(112, 112, 112);
+}
+
+#footer-name::placeholder {
+    color: rgb(112, 112, 112);
+}
+
+#footer-massage::placeholder {
+    color: rgb(112, 112, 112);
+}
+
+#footer-submit {
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: rgb(220, 140, 20);
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 1rem;
+}
+
+#footer-submit:hover {
+    cursor: pointer;
+    background-color: yellow;
+    transition: all 0.4s ease-out;
+}
+
+hr {
+    position: relative;
+    border: none;
+    border-top: 3px dotted rgb(255, 0, 0);
+    color: #fff;
+    background-color: #fff;
+    height: 1px;
+    width: 100%;
+}
+
+.personal {
+   text-align: center;
+}
+
+.piring {
+   padding-left: 30rem;
+   
+}
